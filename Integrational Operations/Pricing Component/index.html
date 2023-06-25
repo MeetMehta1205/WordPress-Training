@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-mobile.css">
+  
+    <title>Frontend Mentor | Pricing Component</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+        <figure class="background">
+            <img src="assets/images/bg-pattern.svg" alt="Background Image" class="bg-img" />
+        </figure>
+
+        <section class="card">
+        
+            <header class="header">
+
+                <h1 class="heading1">Simple traffic-based pricing</h1>
+                <p class="paragraph mt-md">Sign-up for our 30-day trial. No credit card required.</p>
+
+            </header>
+
+            <div class="pricing__box">
+
+                <div class="pageViews">
+                    <span class="js-pageViews">100k</span> pageViews
+                </div>
+
+                <div class="pricing">
+                    <span class="month js-price">$16.00</span> /month
+                </div>
+
+                <form class="slider" autocomplete="off">
+
+                    <label for="rangeSlider"></label>
+                    <div class="bar"><span class="fill js-fill"></span></div>
+                    <input type="range" min="20" max="100" value="60" step="20" name="PriceSelected" class="slider__range js-slider" id="rangeSlider" />  
+
+                </form>
+
+                <div class="billing">
+                    
+                    <span class="billing-month">Monthly Billing</span>
+
+                    <form autocomplete="off">
+
+                        <label class="switch ml-sm">
+
+                            <input type="checkbox" class="js-toggle" />
+                            <span class="toggle round"></span>
+
+                        </label>
+
+                    </form>
+
+                    <span class="year ml-sm">Yearly Billing</span>
+
+                    <span class="discount ml-sm"> 25% discount</span>
+                    <span class="mob-discount ml-sm"> -25% </span>
+
+                </div>
+
+                <div class="feature">
+                
+                    <ul class="feature__list">
+
+                        <li class="feature__list--item">
+                            <img src="assets/images/icon-check.svg" alt="Check Mark" class="feature--img" /> Unlimited Websites
+                        </li>
+
+                        <li class="feature__list--item">
+                            <img src="assets/images/icon-check.svg" alt="Check Mark" class="feature--img" /> 100% Data Ownership
+                        </li>
+
+                        <li class="feature__list--item">
+                            <img src="assets/images/icon-check.svg" alt="Check Mark" class="feature--img" /> Email Reports
+                        </li>
+
+                    </ul>
+
+                    <button class="btn js-btn">Start My Trial</button>
+                
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script defer src="assets/js/script.js"></script>
+
+  </body>
+
+</html>
