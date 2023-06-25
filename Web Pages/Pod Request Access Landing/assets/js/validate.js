@@ -1,0 +1,1 @@
+const form=document.querySelector("form"),input=document.querySelector(".submitDocs"),spanErr=document.querySelector(".errorMsg");console.log(spanErr),input.addEventListener("invalid",()=>{spanErr.classList.add("showError")}),input.addEventListener("input",()=>{spanErr.classList.remove("showError")});
