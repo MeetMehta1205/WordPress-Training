@@ -1,0 +1,1 @@
+@media screen and (min-width:768px){body{max-width:700px;margin:0 auto}.container{max-height:70vh;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:200px 250px}.container #main-header{grid-column:1/span 3;padding:1rem 2rem;justify-content:center}.container #price{padding:.75rem 2rem}.container .why-us{padding:.75rem 2rem}.container .why-us p{line-height:.4}}
